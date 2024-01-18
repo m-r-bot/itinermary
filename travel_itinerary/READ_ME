@@ -1,0 +1,24 @@
+Travel Itinerary Planner
+
+This is a Python program that generates a travel itinerary based on a list of destinations provided in a text file. The program uses Google Maps API to retrieve the latitude and longitude coordinates of each destination, and then calculates the optimal itinerary based on the shortest distance between each location. The program generates a map visualization of the itinerary using Folium and saves it to an HTML file.
+
+#Requirements
+To run this project, you will need the following:
+
+Python 3.x installed on your local machine
+Internet connection to access the Google Maps Distance Matrix API
+Google Maps API key with Distance Matrix API enabled
+
+#Installation
+Install the required Python packages using pip: pip install -r requirements.txt.
+
+Usage
+Install the necessary libraries using pip: pip install pandas folium googlemaps
+Create a config.py file containing your Google Maps API key:
+Create a text file containing a list of destinations, with one destination per line.
+Run the main.py file and follow the prompts:
+The program will generate a travel itinerary and save a map visualization to an HTML file in the current working directory. The program will also print the list of destinations in the optimal order of travel.
+
+Limitations
+This program uses Google Maps API to retrieve the latitude and longitude coordinates of each destination. As a result, there may be usage limits and costs associated with using the API.
+The program assumes that the starting point is the first location in the text file.
